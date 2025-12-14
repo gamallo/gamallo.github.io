@@ -10,6 +10,9 @@ body {
 header {
   border-bottom: 1px solid #ccc;
   margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 h1 {
@@ -43,11 +46,6 @@ footer {
   text-align: center;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
 
 .profile-pic {
   width: 140px;
